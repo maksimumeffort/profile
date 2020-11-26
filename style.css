@@ -1,0 +1,80 @@
+
+body {
+  background-color: #96C467;
+  font-family: 'Castoro', serif;
+  line-height: 1em;
+
+}
+
+body a {
+  color: #1D3900;
+  text-decoration: none;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.profile {
+  text-align: center;
+}
+
+a:hover {
+  color: #CCEBAC;
+}
+
+h1, h2 {
+  font-family: 'Castoro', serif;
+  color: #96C467;
+}
+
+.card {
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 5px 10px #CCEBAC;
+
+}
+
+.container {
+  align-items: center;
+  margin: 0 10%;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 15%;
+}
+
+.links {
+  text-align: center;
+}
+
+.fab {
+  font-size: 5em;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
